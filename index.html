@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>генератор</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="b-contant">
+		<div class="b-navbar">
+			<a href="http://habrahabr.ru/" class="b-logo"></a>
+			<a href="#" class="b-navbar__btnMenu"></a>
+			<a href="#" class="b-navbar__print"></a>
+			<a href="#" class="b-navbar__login"></a>
+		</div>
+		<div class="b-articleBox">
+			<div class="b-articleBox__options">
+				 <div class="b-articleBox__item">
+					<label class="b-label">Кол-во абзацев</label>
+					<input type="text" id="numberArticleMin" placeholder="min" class="b-input">
+					<input type="text" id="numberArticleMax"  placeholder="max" class="b-input">
+				</div>
+				<div class="b-articleBox__item">
+					<label class="b-label">Кол-во предложений в абзаце</label>
+					<input type="text" id="numberSentenceMin"  placeholder="min" class="b-input">
+					<input type="text" id="numberSentenceMax"  placeholder="max" class="b-input">
+				</div>
+				<div class="b-articleBox__item">
+					<label class="b-label">Кол-во слов в предложении</label>
+					<input type="text" id="numberWordsMin"  placeholder="min" class="b-input">
+					<input type="text" id="numberWordsMax"  placeholder="max" class="b-input">
+				</div>
+				<input type="button" class="b-btnStart" value="Cгенерировать статью">
+			</div>
+			<div class="b-date"></div>
+			<h1 class="b-article__title">Статья</h1>
+			<div class="b-article">
+				<div class="b-article__text">
+					
+				</div>
+				<div class="b-article__comment">
+					<h2 class="b-article__comment__title">Комментарии (<span id="comments_count">0</span>) </h2>
+					<div class="b-article__comment__box">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="b-sidebar_right">
+			<img src="/img/cat.jpg" alt="Котик программист" width="300" height="auto">
+			<div class="b-sidebar__broadcast">
+				<div class="b-title">Что обсуждают? </div>
+				<div class="live_broadcast_activity">
+				<div class="posts_list">
+					<div class="post_item">
+						<a href="/post/219509#comments" class="post_name">Скелетная анимация в первый раз</a>&nbsp;<span class="count">9</span>
+					</div>
+					<div class="post_item">
+						<a href="/post/239893#comments"class="post_name">Новый сезон Lenovo: ThinkPad мощнее, Yoga 3 тоньше и Yoga Tablet с проектором</a>&nbsp;<span class="count">48</span>
+					</div>
+					<div class="post_item">
+						<a href="/post/239845#comments" class="post_name">Google представил эмулятор x86 64-bit Android L для разработчиков</a>&nbsp;<span class="count">9</span>
+					</div>
+					<div class="post_item">
+						<a href="/post/239989#comments" class="post_name">Проектирование СШП шестиугольной фрактальной микрополосковой НЕантенны, или будь бдителен</a>&nbsp;<span class="count">7</span>
+					</div>
+					<div class="post_item">
+						<a href="/post/240033#comments" class="post_name">Разработка веб-приложения</a>&nbsp;<span class="count">8</span>
+					</div>
+					<div class="post_item">
+						<a href="/post/240049#comments"  class="post_name">Сколько научных статей в интернете</a>&nbsp;<span class="count">1</span>
+					</div>
+					<div class="post_item">
+						<a href="/post/239971#comments" class="post_name">Первое независимое подтверждение LENR (по-простому – холодный синтез)?</a>&nbsp;<span class="count">275</span>
+					</div>
+					<div class="post_item">
+						<a href="/post/239977#comments"class="post_name">Уровень сложности Hardcore. Советы по выживанию в «женском» кабинете</a>&nbsp;<span class="count">208</span>
+					</div>
+					<div class="post_item">
+						<a href="/post/229849#comments"class="post_name">Можно ли украсть деньги из мобильного банкинга? Часть 2</a>&nbsp;<span class="count">9</span>
+					</div>
+					<div class="post_item">
+						<a href="/post/229887#comments" class="post_name">Замыкания в Javascript [Часть 2]</a>&nbsp;<span class="count">8</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</div>
+</body>
+</html>
